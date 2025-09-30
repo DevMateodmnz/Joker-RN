@@ -18,7 +18,7 @@ const SearchScreen = () => {
         <View className="flex-row items-center bg-gray-100 rounded-full px-4 py-3">
           <Feather name="search" size={20} color="#657786" />
           <TextInput
-            placeholder="Search Twitter"
+            placeholder="Search Joker"
             className="flex-1 ml-3 text-base"
             placeholderTextColor="#657786"
           />
