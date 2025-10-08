@@ -1,9 +1,9 @@
-import EditProfileModal from "@/components/EditProfileModal";
-import PostsList from "@/components/PostsList";
+import EditProfileModal from "../../components/EditProfileModal";
+import PostsList from "../../components/PostsList";
 import SignOutButton from "@/components/SignOutButton";
 import { useCurrentUser } from "@/hooks/useCurrentUser";
-import { usePosts } from "@/hooks/usePosts";
-import { useProfile } from "@/hooks/useProfile";
+import { usePosts } from "../../hooks/usePosts";
+import { useProfile } from "../../hooks/useProfile";
 import { Feather } from "@expo/vector-icons";
 import { format } from "date-fns";
 import {

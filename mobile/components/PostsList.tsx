@@ -1,5 +1,5 @@
-import { useCurrentUser } from "@/hooks/useCurrentUser";
-import { usePosts } from "@/hooks/usePosts";
+import { useCurrentUser } from "../hooks/useCurrentUser";
+import { usePosts } from "../hooks/usePosts";
 import { Post } from "@/types";
 import { View, Text, ActivityIndicator, TouchableOpacity } from "react-native";
 import PostCard from "./PostCard";
